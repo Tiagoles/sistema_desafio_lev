@@ -1,0 +1,16 @@
+#container_form{
+    width: 60%;
+    border: 2px solid #188754;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 40px 0px #188754;   
+    background: #e5e5e5;
+}
+#container_form label{
+    font-size: 20px;
+    color: #000;
+}
+#container_form input{
+    border: 1px solid #000;
+    width: 260px;
+}
