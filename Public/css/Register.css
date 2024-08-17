@@ -14,3 +14,8 @@
     border: 1px solid #000;
     width: 260px;
 }
+.alert-success, .alert-danger {
+    position: absolute;
+    top: 100px;
+    right: 5px;
+}

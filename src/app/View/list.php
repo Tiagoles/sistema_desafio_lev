@@ -6,13 +6,14 @@
     $users = $userModel->findAllUsers();
 ?>
 
-<div id="container_table" class="col-2 d-flex justify-content-center my-0 mx-auto">
+<div id="container_table" class="d-flex justify-content-center my-0 mx-auto">
     <table class="table table-striped table-hover text-center">
         <caption class="text-center">
             Relatório de usuários
         </caption>
         <thead>
             <tr>
+                <th scope="col">#</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Email</th>
                 <th scope="col">Telefone</th>

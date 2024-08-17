@@ -20,8 +20,11 @@
         <link rel="stylesheet" href="../../../../vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../../../../vendor/twbs/bootstrap/dist/js/bootstrap.min.js">
         <link rel="stylesheet" href="../../../../vendor/twbs/bootstrap/dist/js/">
-        <link rel="stylesheet" href="/Public/Assets/Css/Register.css">
-        <link rel="stylesheet" href="/Public/Assets/Css/List.css">
+        <link rel="stylesheet" href="/Public/css/Register.css">
+        <link rel="stylesheet" href="/Public/css/List.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+        <script src="/Public/js/maskPhoneNumber.js"></script>
     </head>
 
     <body class="bg-secondary-subtle">

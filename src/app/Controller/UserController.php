@@ -10,7 +10,7 @@
     $data = [
       "name" => trim($_POST["name"]),
       "email" => trim($_POST["email"]),
-      "phone" => trim($_POST["phone"]),
+      "phone" => unmaskPhoneNumber(trim($_POST["phone"])),
       "birth" => trim(date("Y-m-d", strtotime($_POST["birth"])))
     ];
 

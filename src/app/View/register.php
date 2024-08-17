@@ -1,7 +1,7 @@
   <?php
     include('./templates/header.php');
     if (isset($_SESSION['success_message'])): ?>
-      <div class="alert alert-success alert-dismissible fade show text-center col-2 my-0 mx-auto my-2" role="alert">
+      <div class="alert alert-success alert-dismissible fade show text-center col-4 my-0 mx-auto mb-5" role="alert">
         <?php
         echo $_SESSION['success_message'];
         unset($_SESSION['success_message']);
@@ -12,7 +12,7 @@
   <?php
 
   if (isset($_SESSION['danger_message'])): ?>
-    <div class="alert alert-danger alert-dismissible fade show text-center col-2 my-0 mx-auto my-2" role="alert">
+    <div class="alert alert-danger alert-dismissible fade show text-center col-4 my-0 mx-auto mb-5" role="alert">
       <?php
       echo $_SESSION['danger_message'];
       unset($_SESSION['danger_message']);
@@ -38,7 +38,7 @@
       </div>
       <div class="mb-3 col-12">
         <label class="form-label" for="phone">Telefone</label>
-        <input type="text" class="form-control text-center" id="phone" name="phone" placeholder="Digite o seu numero de telefone">
+        <input type="text" class="form-control text-center" id="phone" name="phone" placeholder="(__) _____-____">
       </div>
       <button type="submit" class="btn btn-success justify-content-center">Cadastrar</button>
     </form>
