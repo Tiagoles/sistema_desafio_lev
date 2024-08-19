@@ -1,7 +1,6 @@
 <?php
     include "./templates/header.php";
     include "../Controller/UserController.php";
-
     $userModel = new User();
     $users = $userModel->findAllUsers();
 ?>
